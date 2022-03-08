@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Dancing Script', cursive;
+    font-family: 'Festive', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Redressed', cursive;
+}
+body{
+    background-color: ;
+    height: 35%;
+    width: 570px;
+    margin: auto;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+
+}
+h1 {
+    text-align: center;
+    background-color: rgb(255, 247, 247);
+    color: rgb(255, 246, 246);
+    margin: 50px ;
+}
+
+#newtask{
+    margin: 50px 50px;
+    position: relative;
+    padding: 30px 15px;
+    background: rgb(112, 107, 111);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(2, 2, 2, 0.925);
+
+}
+
+#newtask input{
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #78cffa;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask input:focus{
+
+    outline: none;
+    border-color: #5ff1d7;
+ 
+}
+
+#newtask button{
+    
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 45px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    background: #4ef9ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#task{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+ 
+.task{
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.task span{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  
+}
+
+.task button{
+    border: none;
+    background: #f525d9;
+    height: 100%;
+    width: 70px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
